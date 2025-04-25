@@ -58,17 +58,14 @@ export default function Navbar() {
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                {MENU_ITEMS.map((item) => renderDropdown(item))}
-              </ul>
-
-              <div className="d-flex gap-2">
-                <button type="button" className="btn btn-secondary">
-                  Upload CV
-                </button>
-                <button type="button" className="btn btn-warning">
-                  Contact us
-                </button>
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0"/>
+              <div className="d-flex gap-4 flex-column flex-lg-row pt-4 pb-2 py-lg-0">
+              <a href="#" className="text-info text-decoration-none fs-8 lh-1">
+                  About us
+                </a>
+                <a href="#" className="text-info text-decoration-none fs-8 lh-1">
+                  Contact
+                </a>
               </div>
             </div>
           </div>
