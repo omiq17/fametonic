@@ -5,34 +5,8 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="container-fluid bg-primary position-relative overflow-hidden"
+      className="container-fluid bg-dark position-relative overflow-hidden"
     >
-      {/* Circle - top left */}
-      <div
-        className="position-absolute bg-warning"
-        style={{
-          width: "290px",
-          height: "290px",
-          borderRadius: "50%",
-          top: "-115px",
-          left: "-150px",
-          zIndex: "0",
-        }}
-      ></div>
-
-      {/* Circle - bottom right */}
-      <div
-        className="position-absolute bg-secondary"
-        style={{
-          width: "290px",
-          height: "290px",
-          borderRadius: "50%",
-          bottom: "-115px",
-          right: "-45px",
-          zIndex: "0",
-        }}
-      ></div>
-
       <div
         className="container-fluid g-0  py-60"
         style={{ maxWidth: MAX_CONTENT_WIDTH }}
