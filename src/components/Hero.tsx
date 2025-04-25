@@ -76,7 +76,8 @@ const Hero = () => {
                 style={{ maxWidth: "31.6875rem", margin: "0 auto" }}
               >
                 <Image
-                  src="/hero-image.png"
+                  src="/hero.png"
+                  className="rounded-5"
                   alt="Hero Image"
                   width={640}
                   height={676}
