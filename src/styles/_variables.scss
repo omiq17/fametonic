@@ -4,7 +4,7 @@ $warning: #f99d76;
 $info: #a9a9a9;
 $dark: #010101;
 
-$btn-border-radius: 1.875rem;
+$btn-border-radius: 0.625rem;
 $input-border-radius: 1.875rem;
 $card-border-radius: 1.875rem;
 $btn-font-weight: 700;
@@ -34,8 +34,10 @@ $font-sizes: (
   6: $h6-font-size,
   // 12px
   7: $font-size-base * 0.75,
+  // 14px
+  8: $font-size-base * 0.875,
   // 18px
-  8: $font-size-base * 1.125,
+  9: $font-size-base * 1.125,
 );
 
 $spacer: 1rem; // 16px
@@ -54,6 +56,8 @@ $spacers: (
   6: $spacer * 5,
   // 10px
   10: $spacer * 0.625,
+  // 13px
+  13: $spacer * 0.8125,
   // 20px
   20: $spacer * 1.25,
   // 30px

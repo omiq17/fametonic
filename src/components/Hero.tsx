@@ -22,30 +22,31 @@ const Hero = () => {
             >
               {/* Text Content */}
               <div
+                className="position-ralative z-2 w-50"
                 style={{
-                  width: "50%",
                   minHeight: "679px",
-                  zIndex: 2,
-                  position: "relative",
                 }}
               >
-                <h1 className="fw-bold mb-3">
+                <h1 className="fw-bold mb-0">
                   Want to Turn Social Media Into a Profitable Career?
                 </h1>
-                <h1 className="fw-bold text-info mb-4">
+                <h1 className="fw-bold text-info mb-1">
                   Discover your way to success with Fametonic:
                 </h1>
 
-                <ul className="list-unstyled fs-5">
-                  <li>
+                <ul
+                  className="list-unstyled fs-6 fw-semibold mt-3 mb-4"
+                  style={{ lineHeight: "22px" }}
+                >
+                  <li className="mb-13">
                     &#10024; Start growing your influence right away—no waiting
                     required!
                   </li>
-                  <li>
+                  <li className="mb-13">
                     &#10024; Create viral TikToks and Reels step by step with
                     easy-to-follow lessons
                   </li>
-                  <li>
+                  <li className="mb-13">
                     &#10024; Use a Personal AI Worker to boost your content
                   </li>
                   <li>
@@ -54,14 +55,14 @@ const Hero = () => {
                   </li>
                 </ul>
 
-                <div className="mt-4">
-                  <a
-                    href="#get-started"
-                    className="btn btn-primary btn-lg px-4 py-2"
+                <div className="d-inline-block w-max">
+                  <button
+                    className="btn btn-primary px-4 py-10"
+                    style={{ minWidth: "313px" }}
                   >
                     GET STARTED
-                  </a>
-                  <p className="mt-2 small">
+                  </button>
+                  <p className="text-center mt-2 fs-8">
                     1-minute quiz for personalized Insights
                   </p>
                 </div>
@@ -77,14 +78,7 @@ const Hero = () => {
               </div>
 
               {/* Phone Image Floating */}
-              <div
-                className="position-absolute"
-                style={{
-                  right: "0px",
-                  top: "0px",
-                  zIndex: 1,
-                }}
-              >
+              <div className="position-absolute z-1 end-0 top-0">
                 <Image
                   src={"/hero.png"}
                   alt="Fametonic mobile dashboard"
