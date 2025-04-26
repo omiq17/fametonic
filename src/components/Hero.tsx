@@ -11,7 +11,7 @@ const Hero = () => {
         className="container-fluid g-0  py-60"
         style={{ maxWidth: MAX_CONTENT_WIDTH }}
       >
-        <div className="py-30">
+        <div className="py-2">
           <div
             className="row g-0 position-relative text-white"
             style={{ overflow: "hidden" }}
@@ -22,7 +22,7 @@ const Hero = () => {
             >
               {/* Text Content */}
               <div
-                className="position-relative z-2 w-50"
+                className="position-relative z-2 w-50 d-flex flex-column justify-content-center"
                 style={{
                   minHeight: "679px",
                 }}

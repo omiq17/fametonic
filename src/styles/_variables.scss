@@ -18,7 +18,7 @@ $headings-font-weight: 700;
 $headings-line-height: 1.5;
 
 $font-size-base: 1rem; // 16px
-$h1-font-size: $font-size-base * 2.1875; // 33px
+$h1-font-size: $font-size-base * 2.1875; // 35px
 $h2-font-size: $font-size-base * 2; // 32px
 $h3-font-size: $font-size-base * 1.75; // 28px
 $h4-font-size: $font-size-base * 1.5; // 24px
@@ -62,8 +62,6 @@ $spacers: (
   13: $spacer * 0.8125,
   // 20px
   20: $spacer * 1.25,
-  // 30px
-  30: $spacer * 1.875,
 );
 
 $zindex-levels: (
