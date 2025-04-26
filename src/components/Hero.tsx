@@ -21,13 +21,20 @@ const Hero = () => {
               style={{ maxWidth: "1200px", margin: "0 auto" }}
             >
               {/* Text Content */}
-              <div style={{ width: "60%", zIndex: 2, position: "relative" }}>
+              <div
+                style={{
+                  width: "50%",
+                  minHeight: "679px",
+                  zIndex: 2,
+                  position: "relative",
+                }}
+              >
                 <h1 className="fw-bold mb-3">
                   Want to Turn Social Media Into a Profitable Career?
                 </h1>
-                <h2 className="fw-bold text-info mb-4">
+                <h1 className="fw-bold text-info mb-4">
                   Discover your way to success with Fametonic:
-                </h2>
+                </h1>
 
                 <ul className="list-unstyled fs-5">
                   <li>
@@ -74,7 +81,7 @@ const Hero = () => {
                 className="position-absolute"
                 style={{
                   right: "0px",
-                  top: "5%",
+                  top: "0px",
                   zIndex: 1,
                 }}
               >
