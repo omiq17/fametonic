@@ -22,7 +22,7 @@ const Hero = () => {
             >
               {/* Text Content */}
               <div
-                className="position-ralative z-2 w-50"
+                className="position-relative z-2 w-50"
                 style={{
                   minHeight: "679px",
                 }}
@@ -62,17 +62,17 @@ const Hero = () => {
                   >
                     GET STARTED
                   </button>
-                  <p className="text-center mt-2 fs-8">
+                  <p className="text-center my-1 fs-8">
                     1-minute quiz for personalized Insights
                   </p>
                 </div>
 
-                <p className="text-muted mt-4 small">
+                <p className="text-light-emphasis mt-4 mb-12 fs-8 fw-medium">
                   By clicking "Get Started", you agree with Terms and
                   Conditions, Privacy Policy, Subscription Terms
                 </p>
 
-                <p className="text-muted small">
+                <p className="text-light-emphasis fs-8 fw-medium">
                   Fametonic 2025 © All Rights Reserved.
                 </p>
               </div>

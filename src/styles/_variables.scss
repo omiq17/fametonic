@@ -9,7 +9,7 @@ $input-border-radius: 1.875rem;
 $card-border-radius: 1.875rem;
 $btn-font-weight: 700;
 
-$light-text-emphasis: #d2d2d2;
+$light-text-emphasis: #ababab;
 
 $body-emphasis-color: #1a1a1a;
 $primary-bg-subtle: #d7e7fb;
@@ -56,16 +56,14 @@ $spacers: (
   6: $spacer * 5,
   // 10px
   10: $spacer * 0.625,
+  // 12px
+  12: $spacer * 0.75,
   // 13px
   13: $spacer * 0.8125,
   // 20px
   20: $spacer * 1.25,
   // 30px
   30: $spacer * 1.875,
-  // 40px
-  40: $spacer * 2.5,
-  // 60px
-  60: $spacer * 3.75,
 );
 
 $zindex-levels: (
