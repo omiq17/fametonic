@@ -12,51 +12,79 @@ const Hero = () => {
         style={{ maxWidth: MAX_CONTENT_WIDTH }}
       >
         <div className="py-30">
-          <div className="row g-0 align-items-center justify-content-center justify-content-lg-between">
-            <div className="col-lg-6 text-white ps-2 pe-2 ps-lg-0 pe-lg-3 z-1 w-max w-lg-auto">
-              <p className="fs-6 lh-base mb-1">
-                Software Recruitment Specialists
-              </p>
-
-              <div className="d-inline-block w-max">
-                <h1 className="display-4 fw-bold lh-base mb-3">
-                  Elevate your career
-                </h1>
-                <div className="d-flex">
-                  <div className="input-group mb-3">
-                    <input
-                      type="text"
-                      className="form-control p-3 fw-bold lh-base"
-                      placeholder="E.g. networking"
-                      aria-label="Job search"
-                    />
-                    <button
-                      className="btn btn-secondary px-4 z-3"
-                      type="button"
-                    >
-                      Search jobs
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+          <div
+            className="row g-0 position-relative text-white"
+            style={{ overflow: "hidden" }}
+          >
             <div
-              className="col-lg-6 mt-4 mt-lg-0 text-center"
-              style={{ zIndex: "1" }}
+              className="w-100 position-relative"
+              style={{ maxWidth: "1200px", margin: "0 auto" }}
             >
+              {/* Text Content */}
+              <div style={{ width: "60%", zIndex: 2, position: "relative" }}>
+                <h1 className="fw-bold mb-3">
+                  Want to Turn Social Media Into a Profitable Career?
+                </h1>
+                <h2 className="fw-bold text-info mb-4">
+                  Discover your way to success with Fametonic:
+                </h2>
+
+                <ul className="list-unstyled fs-5">
+                  <li>
+                    &#10024; Start growing your influence right away—no waiting
+                    required!
+                  </li>
+                  <li>
+                    &#10024; Create viral TikToks and Reels step by step with
+                    easy-to-follow lessons
+                  </li>
+                  <li>
+                    &#10024; Use a Personal AI Worker to boost your content
+                  </li>
+                  <li>
+                    &#10024; Learn from expert-led courses designed for aspiring
+                    influencers
+                  </li>
+                </ul>
+
+                <div className="mt-4">
+                  <a
+                    href="#get-started"
+                    className="btn btn-primary btn-lg px-4 py-2"
+                  >
+                    GET STARTED
+                  </a>
+                  <p className="mt-2 small">
+                    1-minute quiz for personalized Insights
+                  </p>
+                </div>
+
+                <p className="text-muted mt-4 small">
+                  By clicking "Get Started", you agree with Terms and
+                  Conditions, Privacy Policy, Subscription Terms
+                </p>
+
+                <p className="text-muted small">
+                  Fametonic 2025 © All Rights Reserved.
+                </p>
+              </div>
+
+              {/* Phone Image Floating */}
               <div
-                className="overflow-hidden"
-                style={{ maxWidth: "31.6875rem", margin: "0 auto" }}
+                className="position-absolute"
+                style={{
+                  right: "0px",
+                  top: "5%",
+                  zIndex: 1,
+                }}
               >
                 <Image
-                  src="/hero.png"
-                  className="rounded-5"
-                  alt="Hero Image"
-                  width={640}
-                  height={676}
-                  style={{ width: "100%", height: "auto" }}
-                  priority
+                  src={"/hero.png"}
+                  alt="Fametonic mobile dashboard"
+                  className="img-fluid"
+                  width={666}
+                  height={679}
+                  style={{ maxWidth: "100%", height: "auto" }}
                 />
               </div>
             </div>
