@@ -79,7 +79,6 @@ const Hero = () => {
                 <button
                   className="btn btn-primary px-4 py-10"
                   style={{
-                    minWidth: "313px",
                     boxShadow: "2px 2px 4px var(--bs-secondary)",
                   }}
                 >
