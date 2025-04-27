@@ -29,6 +29,7 @@ export default function Navbar() {
             <div
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
+              style={{ paddingRight: "12%" }}
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0" />
               <div className="d-flex gap-4 flex-column flex-lg-row pt-4 pb-2 py-lg-0">

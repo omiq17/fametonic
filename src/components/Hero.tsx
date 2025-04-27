@@ -23,20 +23,16 @@ const Hero = () => {
   return (
     <div id="hero" className="container-fluid g-0 bg-dark overflow-hidden">
       <div
-        className="container-fluid g-0  px-20 py-1 mb-3 mb-md-0"
+        className="container-fluid g-0  px-20 py-0 mb-3 mb-md-0"
         style={{ maxWidth: MAX_CONTENT_WIDTH }}
       >
-        <div
-          className="row g-0 position-relative text-white"
-          style={{ overflow: "hidden" }}
-        >
+        <div className="row g-0 position-relative text-white">
           <div className="w-100 position-relative">
             {/* Phone Image Floating */}
             <div className="hero-image z-1 end-0 top-0">
               <Image
                 src={"/hero.png"}
                 alt="Fametonic mobile dashboard"
-                className="img-fluid"
                 width={666}
                 height={679}
                 style={{ maxWidth: "100%", height: "auto" }}
