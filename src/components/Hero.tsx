@@ -35,7 +35,10 @@ const Hero = () => {
                 <h1 className={`${urbanist.className}  fw-bold mb-0`}>
                   Want to Turn Social Media Into a Profitable Career?
                 </h1>
-                <h1 className={`${urbanist.className} fw-bold text-info mb-1`}>
+                <h1
+                  className={`${urbanist.className} text-secondary fw-bold mb-1`}
+                  style={{ textShadow: "0px 4px 4px var(--bs-primary)" }}
+                >
                   Discover your way to success with Fametonic:
                 </h1>
 
@@ -64,7 +67,10 @@ const Hero = () => {
                 <div className="d-inline-block w-max">
                   <button
                     className="btn btn-primary px-4 py-10"
-                    style={{ minWidth: "313px" }}
+                    style={{
+                      minWidth: "313px",
+                      boxShadow: "2px 2px 4px var(--bs-secondary)",
+                    }}
                   >
                     <div className="d-flex align-items-center justify-content-center gap-2">
                       <p className="m-0 text-center text-white fs-5 fw-bold">
