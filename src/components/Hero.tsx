@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { MAX_CONTENT_WIDTH } from "@/lib/consts";
+import RightArrowIcon from "@/assets/RightArrowIcon";
 
 const Hero = () => {
   return (
@@ -60,7 +61,12 @@ const Hero = () => {
                     className="btn btn-primary px-4 py-10"
                     style={{ minWidth: "313px" }}
                   >
-                    GET STARTED
+                    <div className="d-flex align-items-center justify-content-center gap-2">
+                      <p className="m-0 text-center text-white fs-5 fw-bold">
+                        GET STARTED
+                      </p>
+                      <RightArrowIcon />
+                    </div>
                   </button>
                   <p className="text-center my-1 fs-8">
                     1-minute quiz for personalized Insights
