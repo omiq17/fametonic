@@ -1,5 +1,6 @@
 import { MAX_CONTENT_WIDTH } from "@/lib/consts";
 import Logo from "@/assets/Logo";
+import LogoMobile from "@/assets/LogoMobile";
 
 export default function Navbar() {
   return (
@@ -10,8 +11,10 @@ export default function Navbar() {
       >
         <nav className="navbar navbar-expand-lg py-4">
           <div className="container-fluid g-0">
+            <div />
             <a className="navbar-brand" href="#">
-              <Logo />
+              <LogoMobile className="d-block d-lg-none" />
+              <Logo className="d-none d-lg-block" />
             </a>
 
             <button

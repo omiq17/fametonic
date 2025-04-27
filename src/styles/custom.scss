@@ -1,16 +1,6 @@
 @import "variables";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-.navbar-brand {
-  color: $primary;
-  font-weight: 700;
-
-  &:hover,
-  &:focus {
-    color: darken($primary, 10%);
-  }
-}
-
 .nav-link,
 .dropdown-item {
   color: $body-emphasis-color;
