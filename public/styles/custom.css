@@ -13859,6 +13859,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.promotion-text {
+  font-size: 1.14rem;
+}
+@media (min-width: 768px) {
+  .promotion-text {
+    font-size: 1.375rem;
+  }
+}
+
 .nav-link,
 .dropdown-item {
   color: #1a1a1a;

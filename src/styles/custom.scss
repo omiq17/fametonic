@@ -1,6 +1,14 @@
 @import "variables";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+.promotion-text {
+  font-size: 1.14rem;
+
+  @media (min-width: 768px) {
+    font-size: 1.375rem;
+  }
+}
+
 .nav-link,
 .dropdown-item {
   color: $body-emphasis-color;
