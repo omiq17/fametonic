@@ -21,16 +21,12 @@
   }
 }
 
-.btn-primary,
-.btn-secondary,
-.btn-warning {
-  color: #451b09;
-}
-
-.form-control::placeholder {
-  color: #aaaaaa;
-}
-
 .w-max {
   width: max-content;
+}
+
+.w-md-max {
+  @media (min-width: 768px) {
+    width: max-content;
+  }
 }

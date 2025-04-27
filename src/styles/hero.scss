@@ -1,0 +1,17 @@
+.hero-text {
+  min-height: "auto";
+  width: "100%";
+
+  @media (min-width: 768px) {
+    min-height: 679px;
+    width: 45%;
+  }
+}
+
+.hero-image {
+  position: static;
+
+  @media (min-width: 768px) {
+    position: absolute;
+  }
+}

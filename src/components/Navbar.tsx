@@ -3,9 +3,9 @@ import Logo from "@/assets/Logo";
 
 export default function Navbar() {
   return (
-    <div className="container-fluid bg-dark">
+    <div className="container-fluid g-0 bg-dark">
       <div
-        className="container-fluid g-0"
+        className="container-fluid g-0 px-20"
         style={{ maxWidth: MAX_CONTENT_WIDTH }}
       >
         <nav className="navbar navbar-expand-lg py-4">

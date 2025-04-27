@@ -13877,18 +13877,14 @@ textarea.form-control-lg {
   color: black;
 }
 
-.btn-primary,
-.btn-secondary,
-.btn-warning {
-  color: #451b09;
-}
-
-.form-control::placeholder {
-  color: #aaaaaa;
-}
-
 .w-max {
   width: max-content;
+}
+
+@media (min-width: 768px) {
+  .w-md-max {
+    width: max-content;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
