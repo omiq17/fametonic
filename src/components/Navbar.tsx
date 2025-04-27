@@ -34,13 +34,13 @@ export default function Navbar() {
               <div className="d-flex gap-4 flex-column flex-lg-row pt-4 pb-2 py-lg-0">
                 <a
                   href="#"
-                  className="text-info text-decoration-none fs-8 lh-1"
+                  className="text-info text-decoration-none fs-10 fw-semibold lh-1"
                 >
                   About us
                 </a>
                 <a
                   href="#"
-                  className="text-info text-decoration-none fs-8 lh-1"
+                  className="text-info text-decoration-none fs-10 fw-semibold lh-1"
                 >
                   Contact
                 </a>

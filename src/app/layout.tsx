@@ -5,6 +5,7 @@ import "@/styles/globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import BootstrapClient from "@/components/BootstrapClient";
 import Navbar from "@/components/Navbar";
+import PromotionBanner from "@/components/PromotionBanner";
 
 const figtree = Figtree({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="/styles/custom.css" />
       </head>
       <body className={`${figtree.className} `}>
+        <PromotionBanner />
         <Navbar />
         {children}
         <BootstrapClient />
