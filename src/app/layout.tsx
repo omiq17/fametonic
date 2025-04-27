@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
-import { Roboto } from "next/font/google";
+import { Figtree } from "next/font/google";
 import "@/styles/globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import BootstrapClient from "@/components/BootstrapClient";
 import Navbar from "@/components/Navbar";
 
-const roboto = Roboto({
-  variable: "--font-roboto",
-  subsets: ["latin"],
-});
+const figtree = Figtree({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,12 +21,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Recruitment Site Application</title>
-        <meta name="description" content="A better way to recruit." />
+        <title>Fametonic</title>
+        <meta
+          name="description"
+          content="A platform that helps people turn their social media presence into a profitable career."
+        />
         <link rel="icon" href="/icon.ico" />
         <link rel="stylesheet" href="/styles/custom.css" />
       </head>
-      <body className={`${roboto.variable} antialiased`}>
+      <body className={`${figtree.className} `}>
         <Navbar />
         {children}
         <BootstrapClient />

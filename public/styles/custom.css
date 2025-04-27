@@ -8882,7 +8882,7 @@ textarea.form-control-lg {
 }
 
 .fs-9 {
-  font-size: 1.125rem !important;
+  font-size: 1.0625rem !important;
 }
 
 .fst-italic {
@@ -13863,18 +13863,6 @@ textarea.form-control-lg {
 .dropdown-item:hover,
 .dropdown-item:focus {
   color: black;
-}
-
-h1, .h1,
-h2,
-.h2,
-h3,
-.h3 {
-  letter-spacing: -1px;
-}
-
-h3, .h3 {
-  line-height: 1;
 }
 
 .btn-primary,

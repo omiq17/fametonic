@@ -1,6 +1,9 @@
 import Image from "next/image";
 import { MAX_CONTENT_WIDTH } from "@/lib/consts";
 import RightArrowIcon from "@/assets/RightArrowIcon";
+import { Urbanist } from "next/font/google";
+
+const urbanist = Urbanist({ subsets: ["latin"] });
 
 const Hero = () => {
   return (
@@ -23,36 +26,38 @@ const Hero = () => {
             >
               {/* Text Content */}
               <div
-                className="position-relative z-2 w-50 d-flex flex-column justify-content-center"
+                className="position-relative z-2 d-flex flex-column justify-content-center"
                 style={{
                   minHeight: "679px",
+                  width: "45%",
                 }}
               >
-                <h1 className="fw-bold mb-0">
+                <h1 className={`${urbanist.className}  fw-bold mb-0`}>
                   Want to Turn Social Media Into a Profitable Career?
                 </h1>
-                <h1 className="fw-bold text-info mb-1">
+                <h1 className={`${urbanist.className} fw-bold text-info mb-1`}>
                   Discover your way to success with Fametonic:
                 </h1>
 
                 <ul
-                  className="list-unstyled fs-6 fw-semibold mt-3 mb-4"
+                  className="list-unstyled fs-9 fw-semibold mt-3 mb-4"
                   style={{ lineHeight: "22px" }}
                 >
-                  <li className="mb-13">
-                    &#10024; Start growing your influence right away—no waiting
-                    required!
+                  <li className="d-flex gap-2 mb-13">
+                    <span>&#10024;</span> Start growing your influence right
+                    away—no waiting required!
                   </li>
-                  <li className="mb-13">
-                    &#10024; Create viral TikToks and Reels step by step with
-                    easy-to-follow lessons
+                  <li className="d-flex gap-2 mb-13">
+                    <span>&#10024;</span> Create viral TikToks and Reels step by
+                    step with easy-to-follow lessons
                   </li>
-                  <li className="mb-13">
-                    &#10024; Use a Personal AI Worker to boost your content
+                  <li className="d-flex gap-2 mb-13">
+                    <span>&#10024;</span> Use a Personal AI Worker to boost your
+                    content
                   </li>
-                  <li>
-                    &#10024; Learn from expert-led courses designed for aspiring
-                    influencers
+                  <li className="d-flex gap-2">
+                    <span>&#10024;</span> Learn from expert-led courses designed
+                    for aspiring influencers
                   </li>
                 </ul>
 
